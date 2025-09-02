@@ -1,0 +1,80 @@
+{
+  "name": "ProjectX",
+  "type": "folder",
+  "children": [
+    {
+      "name": "src",
+      "type": "folder",
+      "children": [
+        {
+          "name": "api",
+          "type": "folder",
+          "children": [
+            { "name": "auth.js", "type": "file" },
+            { "name": "users.js", "type": "file" }
+          ]
+        },
+        {
+          "name": "components",
+          "type": "folder",
+          "children": [
+            {
+              "name": "common",
+              "type": "folder",
+              "children": [
+                { "name": "Button.js", "type": "file" },
+                { "name": "Modal.js", "type": "file" }
+              ]
+            },
+            { "name": "Navbar.js", "type": "file" },
+            { "name": "Footer.js", "type": "file" }
+          ]
+        },
+        {
+          "name": "hooks",
+          "type": "folder",
+          "children": [
+            { "name": "useAuth.js", "type": "file" },
+            { "name": "useFetch.js", "type": "file" }
+          ]
+        },
+        {
+          "name": "App.js",
+          "type": "file"
+        },
+        {
+          "name": "index.js",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "public",
+      "type": "folder",
+      "children": [
+        { "name": "index.html", "type": "file" },
+        { "name": "manifest.json", "type": "file" }
+      ]
+    },
+    {
+      "name": "tests",
+      "type": "folder",
+      "children": [
+        { "name": "App.test.js", "type": "file" },
+        { "name": "auth.test.js", "type": "file" }
+      ]
+    },
+    {
+      "name": ".gitignore",
+      "type": "file"
+    },
+    {
+      "name": "package.json",
+      "type": "file"
+    },
+    {
+      "name": "README.md",
+      "type": "file"
+    }
+  ]
+}

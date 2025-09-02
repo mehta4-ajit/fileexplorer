@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  width: 50%;
+  border: 1px solid red;
+  height: auto;
+}
+.content {
+  width: 60%;
+  height: auto;
+}
+.layerOne {
+  /* background-color: red; */
+}
+.layertwo: {
+  background-color: green !important;
+  margin-left: 22px;
+}
