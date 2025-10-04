@@ -15,9 +15,9 @@
   height: auto;
 }
 .layerOne {
-  /* background-color: red; */
+  background-color: red;
 }
-.layertwo: {
+.layertwo {
   background-color: green !important;
   margin-left: 22px;
 }
